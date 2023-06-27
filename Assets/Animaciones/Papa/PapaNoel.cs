@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class PapaNoel : MonoBehaviour
 {
+//SONRIE, ESTO VA PARA GITHUB
     [SerializeField] private Animator animator;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.W))
-        {
-            animator.SetTrigger("JumpTrigger");
-        }
+        { animator.SetTrigger("JumpTrigger"); }
 
         if (Input.GetKey(KeyCode.D))
         {
